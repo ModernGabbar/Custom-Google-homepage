@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(to right, rgb(222, 41, 210) , rgb(26, 25, 177));
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#time {
+    padding-top: 10px;
+    font-size: 70px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+    transition: all 200ms;
+}
+
+#time:hover {
+    transform: scale(1.1);
+}
+
+#date {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.quote {
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.q-saying {
+    font-size: 36px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.q-name {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-bar {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    margin-right: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 664px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: all 500ms;
+}
+
+.search:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    border: none;
+    transition: all 200ms;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
